@@ -26,5 +26,4 @@ if uploaded_file:
     select = {}
     select['option'] = options[style]
     res = client.styleTrans(img_data, select)
-    st.write(res)
     st.image(base64.b64decode(res['image']))
