@@ -1,2 +1,2 @@
 baidu_aip==4.16.7
-streamlit==1.13.0
+streamlit==1.19.0
