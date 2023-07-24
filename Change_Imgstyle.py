@@ -15,7 +15,7 @@ options = {
     '奇异油画风格': 'mononoke', '呐喊油画风格': 'scream', '哥特油画风格': 'gothic'
 }
 
-uploaded_file=st.file_uploader('选择需要加工的照片',type=['jpg','png'])
+uploaded_file=st.file_uploader('选择需要加工的照片')
 style = st.sidebar.selectbox('选择需要加工的风格',options.keys())
 if uploaded_file:
     st.image(uploaded_file,caption='已选文件',use_column_width=True)
